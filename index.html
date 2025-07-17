@@ -12,6 +12,8 @@
             <div style="display:block">
             <img alt="CSEC Logo" src="https://assets.r2.csec.top/logo/white.blank.svg" style="width: 50px; height: 50px; margin-right: 10px;display: var(--logo-white);"/>
             <img alt="CSEC Logo" src="https://assets.r2.csec.top/logo/black.blank.svg" style="width: 50px; height: 50px; margin-right: 10px;display: var(--logo-black);"/> 
+            <button class="tab-btn" onclick="function logout(){if (confirm('Are you sure you want to logout?')){localStorage.removeItem('login');window.location.reload();}}"> Logout</button>
+            <button class="tab-btn" onclick="function clrtmp(){if (confirm('Are you sure you want to clear temp?\nthis will clear your drafts&contacts,it will also make you logout.')){localStorage.clear();window.location.reload();}}"> Clear Temp</button>
             </div>
             <h1>CSEC Email</h1>
             <button id="themeToggle" class="theme-toggle">🌙</button>
@@ -22,8 +24,6 @@
                 <button class="tab-btn active" data-tab="compose">✏️ Compose</button>
                 <button class="tab-btn" data-tab="drafts">📄 Drafts</button>
                 <button class="tab-btn" data-tab="contacts">👥 Contacts</button>
-                <button class="tab-btn" onclick="function logout(){if (confirm('Are you sure you want to logout?')){localStorage.removeItem('login');window.location.reload();}}"> Logout</button>
-                <button class="tab-btn" onclick="function clrtmp(){if (confirm('Are you sure you want to clear temp?\nthis will clear your drafts&contacts,it will also make you logout.')){localStorage.clear();window.location.reload();}}"> Clear Temp</button>
             </nav>
 
             <main class="main-content">
