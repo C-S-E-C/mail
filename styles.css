@@ -10,6 +10,7 @@
   --accent-hover: #0056b3;
   --success-color: #28a745;
   --danger-color: #dc3545;
+  --logo-src: "https://assets.r2.csec.top/logo/black.blank.svg";
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -25,6 +26,7 @@
   --accent-hover: #339af0;
   --success-color: #51cf66;
   --danger-color: #ff6b6b;
+  --logo-src: "https://assets.r2.csec.top/logo/white.blank.svg";
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
