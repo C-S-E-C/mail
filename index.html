@@ -23,7 +23,7 @@
                 <button class="tab-btn" data-tab="drafts">📄 Drafts</button>
                 <button class="tab-btn" data-tab="contacts">👥 Contacts</button>
                 <button class="tab-btn" onclick="function logout(){if (confirm('Are you sure you want to logout?')){localStorage.removeItem('login');window.location.reload();}}"> Logout</button>
-                <button class="tab-btn" onclick="function logout(){if (confirm('Are you sure you want to clear temp?\nthis will clear your drafts&contacts,it will also make you logout.')){localStorage.clear();window.location.reload();}}"> Clear Temp</button>
+                <button class="tab-btn" onclick="function clrtmp(){if (confirm('Are you sure you want to clear temp?\nthis will clear your drafts&contacts,it will also make you logout.')){localStorage.clear();window.location.reload();}}"> Clear Temp</button>
             </nav>
 
             <main class="main-content">
